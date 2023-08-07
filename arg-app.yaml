@@ -8,7 +8,7 @@ spec:
 
   source:
     repoURL: https://github.com/sharathsl/argocd_deploy.git
-    targetRevision: petclinic-app
+    targetRevision: petclinic_app
     path: app
   destination:
     server: https://kubernetes.default.svc
