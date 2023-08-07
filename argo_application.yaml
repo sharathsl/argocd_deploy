@@ -3,7 +3,7 @@ kind: Application
 metadata:
   name: argo-app-dev
   namespace: argocd
-spec: 
+spec:
   project: default
 
   source:
@@ -13,7 +13,7 @@ spec:
   destination:
     server: https://kubernetes.default.svc
     namespace: dev
-  
+
   syncPolicy:
     syncOptions:
     - CreateNamespace=true
