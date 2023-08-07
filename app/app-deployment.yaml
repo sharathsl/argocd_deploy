@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: petclinic-app
-        image: sharath2787/petclinic:
+        image: sharath2787/petclinic:21
         ports:
         - containerPort: 80
